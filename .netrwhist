@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/les/pomelo_tutorals/chatroomtest/chatofpomelo'
+let g:netrw_dirhist_2='/Users/les/cardgame_pomelo/.git'
+let g:netrw_dirhist_3='/Users/les/.tmux'
+let g:netrw_dirhist_4='/Users/les/toppath/statt-game'
