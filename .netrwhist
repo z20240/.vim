@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/les/pomelo_tutorals/chatroomtest/chatofpomelo'
 let g:netrw_dirhist_2='/Users/les/cardgame_pomelo/.git'
 let g:netrw_dirhist_3='/Users/les/.tmux'
 let g:netrw_dirhist_4='/Users/les/toppath/statt-game'
-
+let g:netrw_dirhist_5='/Users/les/.tmux_folder'
+let g:netrw_dirhist_6='/Users/les/.tmux_folder/.git'
+let g:netrw_dirhist_7='/Users/les/.zshrc_folder'
+let g:netrw_dirhist_8='/Users/les/.zshrc_folder/.git'
