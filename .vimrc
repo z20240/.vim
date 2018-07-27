@@ -353,6 +353,9 @@ let g:SimpylFold_docstring_preview=1
 " 如果發生無法安裝的問題，使用：
 " git submodule update --init --recursive 先行安裝第三方套件
 " 然後再重新執行一次 ./install.py
+" (for debian9 : 可能需要下 sudo apt install vim-python-jedi
+" 來完成。其中可能會碰到 python 安裝不完全的問題，你要上網找方法)
+" https://blog.csdn.net/LHYzyp/article/details/71514322 【Linux】-- apt-get install 出错，Python 未配置
 " 补全菜单的开启与关闭
 set completeopt=longest,menu                                    " 让Vim的补全菜单行为与一般IDE一致(参考VimTip1228)
 let g:ycm_min_num_of_chars_for_completion=2                     " 从第2个键入字符就开始罗列匹配项
