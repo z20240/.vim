@@ -27,6 +27,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'        " git 在 nerdtree 上的工具
 Plugin 'Yggdroot/indentLine'                " 縮排提示線
 Plugin 'tmhedberg/SimpylFold'               " 配置代碼摺疊的管理套件
 Plugin 'Valloric/YouCompleteMe'             " vim上的自动补全神器
+Plugin 'leafgarland/typescript-vim'         " typescript-vim
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -391,3 +392,9 @@ inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
 nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR> " 跳转到定义处
 let g:ycm_confirm_extra_conf=0                  " 关闭加载.ycm_extra_conf.py确认提示
 " 配置 Youcompleteme 設定 =====================================
+
+" ==== Typescript Syntax for Vim =====
+let g:typescript_indent_disable = 1
+let g:typescript_opfirst='\%([<>=,?^%|*/&]\|\([-:+]\)\1\@!\|!=\|in\%(stanceof\)\=\>\)'
+au BufRead,BufNewFile *.ts   setfiletype typescript
+" ==== Typescript Syntax for Vim =====
